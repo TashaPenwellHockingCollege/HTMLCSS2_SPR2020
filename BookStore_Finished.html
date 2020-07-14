@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hocking College Hawk Spirit Store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href = "bootStrapStyle.css">
+    <link rel = "stylesheet" href = "styles.css">
+
+    <style>
+        
+        .itemContainer {
+            margin-top: 400px;
+            margin-left: -200px;
+        }
+
+        #orangeBanner {
+            /* Orange background */
+            width: 100vw;
+            left: -15px;
+            position: absolute;
+            height: 198px;
+            top: 1002px;
+            background: #FCA311;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        #orangeBannerContent {
+        position: absolute;
+        width: 100vw;
+        height: 163px;
+        left: 15px;
+        padding-top: 60px;
+        /* top: 1002px; */
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+
+        color: black;
+
+}
+
+    </style>
+
+</head>
+<body>
+
+    <!-- Green Nav/Heading Bar -->
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--changed bg-light to background of green-->
+        <a style = "margin-left: 5%;" class="navbar-link navButtonCustom" href="#">About</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link navButtonCustom" href="#">Directory <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navButtonCustom" href="#">Bookstore</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link  navButtonCustom" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                College Credit Plus
+              </a>
+
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link  navButtonCustom" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                  Athletics
+                </a>
+  
+              </li>
+
+              <li class="nav-item ">
+                <a class="nav-link  navButtonCustom" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                  Email
+                </a>
+  
+              </li>
+
+              <li class="nav-item ">
+                <a class="nav-link  navButtonCustom" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                  Self Service
+                </a>
+  
+              </li>
+
+              
+              <li class="nav-item ">
+                <a class="nav-link  navButtonCustom" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                  Blackboard
+                </a>
+  
+              </li>
+
+              
+              <li class="nav-item ">
+                <a class="nav-link  navButtonCustom" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                  Web Advisor
+                </a>
+  
+              </li>
+
+              
+              <li class="nav-item ">
+                <a class="nav-link  navButtonCustom" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                  Register
+                </a>
+  
+              </li>
+
+          </ul>
+
+          <br>
+          
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+    </div>
+
+    <!-- Adding logo to left hand side of the white nav area -->
+
+    <img style = "padding: 10px" src= "images/hockingCollegeLogo.jpg" width="10%vw" height="10%vh" >
+
+    <!-- this is the white nav/heading area -->
+   
+    <div style = "background-color: white; float: right; margin-right: 10%;">
+        <nav class="navbar navbar-expand-lg navbar-light"> <!--changed color to background of white-->
+            <a class="navbar-link navButtonCustomBlack" href="#">Future Students</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link navButtonCustomBlack" href="#">Current Students <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navButtonCustomBlack" href="#">Military</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link  navButtonCustomBlack" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                    Majors
+                  </a>
+    
+                </li>
+    
+                <li class="nav-item ">
+                    <a class="nav-link  navButtonCustomBlack" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                      Parents
+                    </a>
+      
+                  </li>
+    
+                  <li class="nav-item ">
+                    <a class="nav-link  navButtonCustomBlack" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                      Alumni & Community
+                    </a>
+      
+                  </li>
+    
+                  <li class="nav-item ">
+                    <a class="nav-link  navButtonCustomBlack" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                      Faculty/Staff
+                    </a>
+      
+                  </li>
+    
+                  
+                  <li class="nav-item ">
+                    <a class="nav-link  navButtonCustomBlack" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                      Resources
+                    </a>
+      
+                  </li>
+    
+                  
+
+    
+              </ul>
+
+            </div>
+            </nav>
+
+
+            <!-- Blue Banner for HC HAWKS SPIRIT STORE -->
+
+            <div id = "blueBanner"><span id = "blueBannerContent">Hocking College Hawks Spirit Store</span></div>
+
+
+    <!-- Categories of items in spirit store -->
+            
+    
+
+    <div class = "itemContainer">
+    <ul style="list-style-type: none; font-size: 50px;">
+        <li><a href = "#">Clothing <img src = "images/noun_triangleSolid.svg" width="30" height="30"></a></li>
+        <li><a href = "#">Gifts<img src = "images/noun_triangleSolid.png" width = "30" height="30">    </a></li>
+        <li><a href = "#">Technology Supplies</a></li>
+        <li><a href = "#">Textbook Lookup</a></li>
+    </ul>
+
+    </div>
+
+
+    <canvas id = "circleBorders" width = "900" height="330"></canvas>
+    
+
+
+    <!-- new items coming in banner in orange -->
+
+    <div id = "orangeBanner"><span id = "orangeBannerContent">We are Getting In New Items This Month!</span></div>
+
+
+    <script>
+      var canvas = document.getElementById("circleBorders");
+      var ctx = canvas.getContext("2d");
+      ctx.beginPath();
+      ctx.arc(15, 50, 10, 0, 2 * Math.PI);
+      ctx.stroke();
+
+      var canvas = document.getElementById("circleBorders");
+      var ctx = canvas.getContext("2d");
+      ctx.beginPath();
+      ctx.arc(450, 100, 100, 0, 2 * Math.PI);
+      ctx.stroke();
+
+
+
+      var c = document.getElementById("circleBorders");
+      var ctx = c.getContext("2d");
+
+      // Create gradient
+      var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+      grd.addColorStop(0, "#009E49");
+      grd.addColorStop(1, "#FBB031");
+
+      // Fill with gradient
+      ctx.fillStyle = grd;
+      ctx.fillRect(30, 45, 1000, 10);
+
+
+      
+
+
+
+      var c = document.getElementById("circleBorders");
+      var ctx = c.getContext("2d");
+
+      // Create gradient
+      var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+      grd.addColorStop(0, "#FBB031");
+      grd.addColorStop(1, "#0084C9");
+
+      // Fill with gradient
+      ctx.fillStyle = grd;
+      ctx.fillRect(330, -100, 10, 700);
+
+
+
+      var c = document.getElementById("circleBorders");
+      var ctx = c.getContext("2d");
+
+      // Create gradient
+      var grd = ctx.createLinearGradient(0, 0, 200, 0);
+      grd.addColorStop(0, "red");
+      grd.addColorStop(1, "white");
+
+      // Fill with gradient
+      ctx.fillStyle = grd;
+      ctx.fillRect(40, 10, 50, 100);
+    </script>
+    
+</body>
+</html>
